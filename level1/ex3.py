@@ -54,6 +54,10 @@ print(tuple4)
 list10 = list(tuple1)
 print(list10)
 
+money = 10000000.01234
+
+print(f"{money:,}")
+
 # 3. 딕셔너리
 
 
