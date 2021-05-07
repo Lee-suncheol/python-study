@@ -14,6 +14,10 @@ class Person:
         self.username = username
         self.password = password
 
+    def __str__(self):
+        return f"username:{self.username},password:{self.password}"
+
 p = Person("leesunchul81","1234")
 
 print(p.username)
+
